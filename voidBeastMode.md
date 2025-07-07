@@ -1,5 +1,5 @@
 ---
-description: '4.1 Beast Mode'
+description: '4.1 voidBeastMode 1.0'
 
 ---
 
