@@ -33,9 +33,20 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 - [ ] Step 6: Reflect and document the solution.
 ```
 
-#### Usage
+## ⚙️ Installation: Add "Custom Mode" in VS Code Insiders
 
-Use voidBeastMode as a template for AI agents (e.g., Copilot, GPT) in any codebase or automation project that demands high standards for rigor, planning, and reliability.
+You can use the prompts from this repo as "Custom Mode" instructions in the latest [VS Code Insiders edition](https://code.visualstudio.com/insiders/).
+
+1. **Open VS Code Insiders** (make sure you have the latest version).
+2. Go to the **Copilot Chat** sidebar.
+3. Click the gear ⚙️ icon and select **Custom Mode** (or open Command Palette `Cmd/Ctrl+Shift+P` and search for "Copilot: Custom Mode").
+4. Paste the prompt content from any of the files in this repo (e.g., `voidBeastMode.md`) into the Custom Mode instruction box.
+5. Save and activate the Custom Mode.
+6. Your Copilot Chat will now follow the enhanced workflow and rigor of the selected prompt.
+
+> 💡 **Tip:** You can create and save multiple Custom Modes for different workflows or coding styles.
+
+
 
 ---
 
