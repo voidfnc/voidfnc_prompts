@@ -1,7 +1,7 @@
 # 🧰 @voidfnc/voidfnc_prompts
 
 A collection of advanced AI prompt templates and agentic workflows for developers, automation, and research.  
-Made by [@voidfnc](https://github.com/voidfnc).  
+Made, tested, and shared by [@voidfnc](https://github.com/voidfnc). Inspired by others.
 Boost your AI's reasoning, rigor, and autonomy with our battle-tested prompt designs.
 
 ---
