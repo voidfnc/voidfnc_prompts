@@ -33,6 +33,37 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 - [ ] Step 6: Reflect and document the solution.
 ```
 
+---
+
+## 🏁 Special Mode Triggers & Commands
+
+voidBeastMode includes three advanced modes, each with their own trigger phrases.  
+Type or say one of these commands to activate the corresponding mode:
+
+### 🔎 Deep Research Mode
+**Triggers:**
+- `"deep research"`
+- Task requires multi-source verification
+- Complex architectural decisions needed
+- Multiple viable solutions exist
+
+### 🧮 Analyzer Mode
+**Triggers:**
+- `"refactor [codebase/project/file]"`
+- `"debug [codebase/project/file]"`
+- `"analyze [codebase/project/file]"`
+- `"secure [codebase/project/file]"`
+
+### 🧷 Checkpoint Mode
+**Triggers:**
+- `"checkpoint [codebase/project/file]"`
+- `"memorize [codebase/project/file]"`
+- `"memory [codebase/project/file]"`
+
+> 💡 When these triggers are detected, the agent will activate the corresponding workflow and request user approval for any major actions.
+
+---
+
 ## ⚙️ Installation: Add "Custom Mode" in VS Code Insiders
 
 You can use the prompts from this repo as "Custom Mode" instructions in the latest [VS Code Insiders edition](https://code.visualstudio.com/insiders/).
