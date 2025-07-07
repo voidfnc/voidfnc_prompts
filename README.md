@@ -1,86 +1,28 @@
-# 🦾 voidBeastMode Prompt
+# 🧰 @voidfnc/voidfnc_prompts
 
-Welcome to **voidBeastMode** — an advanced AI agent workflow prompt designed for thorough, autonomous problem-solving.  
-This prompt is part of the [`@voidfnc/voidfnc_prompts`](https://github.com/voidfnc/voidfnc_prompts) collection.
-
----
-
-## 🚀 Overview
-
-**voidBeastMode** empowers agentic models and AI assistants to tackle user queries autonomously and rigorously.  
-It leverages a carefully structured process to ensure each problem is deeply understood, investigated, planned, executed, and validated before returning control.  
-The workflow emphasizes iterative progress, comprehensive planning, and strict validation for robust outcomes.
+A collection of advanced AI prompt templates and agentic workflows for developers, automation, and research.  
+Made by [@voidfnc](https://github.com/voidfnc).  
+Boost your AI's reasoning, rigor, and autonomy with our battle-tested prompt designs.
 
 ---
 
-## ✨ Key Features
+## 📦 Available Prompts
 
-- **🤖 Autonomous, Iterative Resolution**  
-  The agent proceeds step-by-step, only yielding when the problem is fully solved and all criteria are met.
-- **🗺️ Explicit Planning & Reflection**  
-  Requires detailed planning, with a public todo list, and frequent reflection at each step.
-- **🔍 Deep Codebase Investigation**  
-  Mandates reading and understanding large code context (2000 lines at a time) before code changes.
-- **🔬 Incremental, Test-Driven Development**  
-  Encourages small, testable changes with frequent testing and debugging.
-- **🧩 Special Modes for Deep Research, Analysis, and Checkpointing**  
-  - **Deep Research Mode:** For complex or multi-source tasks, requiring research, comparison, and user approval before action.
-  - **Analyzer Mode:** For full codebase scans, audits, and refactor suggestions with user-approval gating.
-  - **Checkpoint Mode:** For creating and documenting codebase snapshots, again requiring user sign-off.
+### 1. 🦾 voidBeastMode (v1.0) — First Release
 
----
+**voidBeastMode** is our flagship agent workflow prompt for robust, autonomous problem-solving.  
+Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) 🐲, voidBeastMode is designed for agents that never quit until the task is thoroughly solved and every box is checked.
 
-## 🛠️ Workflow
+#### Key Features
 
-1. **Understand the Problem Deeply**
-   - Carefully read the user's issue or request.
-   - Gather context, clarify requirements, and avoid assumptions.
+- 🤖 Autonomous, iterative resolution with explicit planning and validation
+- 🗺️ Step-by-step public todo lists, checked off as progress is made
+- 🔍 Deep codebase investigation (reads 2000 lines at a time)
+- 🔬 Incremental, test-driven development and debugging
+- 🧩 Special deep research, analyzer, and checkpointing modes
+- 📝 Transparent progress and reporting
 
-2. **Investigate the Codebase**
-   - Search for relevant files, functions, and classes.
-   - Read 2000 lines at a time for full context.
-   - Identify root causes and validate hypotheses.
-
-3. **Develop a Step-by-Step Plan**
-   - Break the solution into concise steps.
-   - Display progress with a markdown todo list, checking off steps as completed.
-
-4. **Implement and Debug**
-   - Make incremental, testable changes.
-   - Employ debugging and validation tools.
-   - Revisit assumptions as needed.
-
-5. **Test and Validate**
-   - Run tests after each change.
-   - Write additional tests for edge cases and hidden requirements.
-   - Ensure all criteria are met before completion.
-
-6. **Reflect and Document**
-   - Review the original problem and confirm all aspects are addressed.
-   - Document findings, process, and outcomes.
-
----
-
-## 📝 Special Operating Modes
-
-### 🔎 Deep Research Mode
-
-- Triggers for complex research, architectural decisions, or explicit user request.
-- Involves multi-source research, analysis matrix, solution ranking, and user approval before action.
-
-### 🧮 Analyzer Mode
-
-- For audits, refactors, and security analysis.
-- Full codebase scan and report generation before requesting user approval for any changes.
-
-### 🧷 Checkpoint Mode
-
-- For creating codebase memories/snapshots.
-- Requires comprehensive scan and user approval before finalizing the checkpoint.
-
----
-
-## ✅ Example Todo List
+#### Example Workflow
 
 ```markdown
 - [ ] Step 1: Understand the user request.
@@ -91,21 +33,24 @@ The workflow emphasizes iterative progress, comprehensive planning, and strict v
 - [ ] Step 6: Reflect and document the solution.
 ```
 
----
+#### Usage
 
-## ⚡ Usage
-
-You can use this prompt as a template for agentic AI models (such as Copilot, GPT agents, etc.) in any repo or workflow where you want rigorous, autonomous problem-solving with robust validation and transparent progress tracking.
+Use voidBeastMode as a template for AI agents (e.g., Copilot, GPT) in any codebase or automation project that demands high standards for rigor, planning, and reliability.
 
 ---
 
-## 📜 License
+## 🚧 More Prompts Coming Soon
+
+Stay tuned as we grow this collection with more specialized prompts, workflows, and agentic templates for different use cases and industries.
+
+---
+
+## 📝 License
 
 MIT
 
 ---
 
 > **Prompt Source:** [`voidBeastMode.md`](./voidBeastMode.md)  
-> **Author:** [@voidfnc](https://github.com/voidfnc)  
-> For more prompts and tools, see the [`@voidfnc/voidfnc_prompts`](https://github.com/voidfnc/voidfnc_prompts) repo.  
+> **Authors:** [@voidfnc](https://github.com/voidfnc)  
 > **Inspiration:** Beast Mode by [burkeholland](https://gist.github.com/burkeholland) 🐲  
