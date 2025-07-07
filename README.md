@@ -51,6 +51,6 @@ MIT
 
 ---
 
-> **Prompt Source:** [`voidBeastMode_41.md`](./voidBeastMode_41.md)  
+> **Prompt Source:** [`voidBeastMode_GPT41.md`](./voidBeastMode_GPT41.md)  
 > **Authors:** [@voidfnc](https://github.com/voidfnc)  
 > **Inspiration:** Beast Mode by [burkeholland](https://gist.github.com/burkeholland) 🐲  
