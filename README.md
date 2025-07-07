@@ -10,8 +10,8 @@ Boost your AI's reasoning, rigor, and autonomy with our battle-tested prompt des
 
 ### 1. 🦾 voidBeastMode (v1.0) — First Release
 
-**voidBeastMode** is our flagship agent workflow prompt for robust, autonomous problem-solving.  
-Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) 🐲, voidBeastMode is designed for agents that never quit until the task is thoroughly solved and every box is checked.
+**voidBeastMode** is our first agent workflow prompt for robust, autonomous problem-solving.  
+Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) 🐲, voidBeastMode is designed for agents that never quit until the task is thoroughly solved and every box is checked. Special modes added and triggers for Deep Research (Planning/Sourcing), Analyzer (Refactors/Security Audit/Optimizations), and Checkpointing / Memory mode for project saving and documentation. 
 
 #### Key Features
 
@@ -51,6 +51,6 @@ MIT
 
 ---
 
-> **Prompt Source:** [`voidBeastMode.md`](./voidBeastMode.md)  
+> **Prompt Source:** [`voidBeastMode_41.md`](./voidBeastMode_41.md)  
 > **Authors:** [@voidfnc](https://github.com/voidfnc)  
 > **Inspiration:** Beast Mode by [burkeholland](https://gist.github.com/burkeholland) 🐲  
