@@ -102,6 +102,13 @@ Stay tuned as we grow this collection with more specialized prompts, workflows, 
 
 ---
 
+Media of projects using voidBeast prompts / mode:
+
+![image](https://github.com/user-attachments/assets/3be7c945-5dee-4a48-b43b-43fbcf9b8b94)
+
+---
+
+
 ## 📝 License
 
 MIT
