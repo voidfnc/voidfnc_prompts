@@ -49,7 +49,6 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 - 🧩 Special modes: Analyzer, Deep Research, Checkpoint/Memory
 - ♿ Accessibility, SEO, and performance always considered
 
-See [`README_CHATMODE.md`](./README_CHATMODE.md) for full details and usage.
 
 ---
 
