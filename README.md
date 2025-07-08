@@ -54,7 +54,7 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 
 ## 🏁 Special Mode Triggers & Commands
 
-voidBeastMode includes three advanced modes, each with their own trigger phrases.  
+voidBeast includes three advanced modes, each with their own trigger phrases.  
 Type or say one of these commands to activate the corresponding mode:
 
 ### 🔎 Deep Research Mode
