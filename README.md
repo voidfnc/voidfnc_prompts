@@ -49,6 +49,45 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 - 🧩 Special modes: Analyzer, Deep Research, Checkpoint/Memory
 - ♿ Accessibility, SEO, and performance always considered
 
+---
+
+### 3. ⚡ voidBeast_OpenAI (v4.1) — Elite C/C++ Windows Systems Expert
+
+**voidBeast_OpenAI** is a specialized elite-level prompt designed for C/C++ Windows systems programming, kernel development, and low-level system internals. This prompt transforms AI into a production-ready Windows systems expert with deep technical expertise.
+
+#### Key Features
+
+- 🏗️ **Windows Systems Mastery**: Win32 API, WinRT, kernel development, and driver programming
+- 🛡️ **Security-First Development**: Microsoft SDL guidelines, secure coding practices, and vulnerability prevention
+- 🔬 **Deep Technical Research**: Mandatory documentation fetching from official Microsoft sources
+- 💻 **Multi-Language Expertise**: C/C++ (all standards), Assembly (x86/x64), inline assembly integration
+- 🎯 **Production-Ready Code**: Complete solutions with error handling, resource management, and optimization
+- 🧠 **Autonomous Problem-Solving**: Persistent until complete resolution with extensive planning and validation
+- 📚 **Documentation-Driven**: Always verifies against current official Microsoft documentation
+- 🔧 **Driver Development**: WDM, WDF, kernel-mode, and hardware interaction expertise
+
+#### Specialized Areas
+
+- **Kernel Development**: Windows Driver Model, device drivers, kernel debugging
+- **Windows Internals**: NT kernel architecture, system services, memory management
+- **Assembly Programming**: x86/x64, SIMD, performance optimization
+- **Security**: SDL compliance, privilege management, secure API usage
+- **Performance**: Profiling, optimization, memory management excellence
+
+#### Example Use Cases
+
+```cpp
+// Driver development with proper error handling
+NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath);
+
+// Windows API integration with RAII
+class WindowsAPIWrapper {
+    // Production-ready Windows API wrapper
+};
+
+// Assembly integration
+extern "C" void optimized_memory_copy(void* dest, const void* src, size_t size);
+```
 
 ---
 
@@ -88,7 +127,7 @@ You can use the prompts from this repo as "Custom Mode" instructions in the late
 1. **Open VS Code Insiders** (make sure you have the latest version).
 2. Go to the **Copilot Chat** sidebar.
 3. Click the gear ⚙️ icon and select **Custom Mode** (or open Command Palette `Cmd/Ctrl+Shift+P` and search for "Copilot: Custom Mode").
-4. Paste the prompt content from any of the files in this repo (e.g., `voidBeastMode.md`) into the Custom Mode instruction box.
+4. Paste the prompt content from any of the files in this repo (e.g., `voidBeastMode.md`, `voidBeast_OpenAI.md`) into the Custom Mode instruction box.
 5. Save and activate the Custom Mode.
 6. Your Copilot Chat will now follow the enhanced workflow and rigor of the selected prompt.
 
@@ -108,7 +147,6 @@ Media of projects using voidBeast prompts / mode:
 
 ---
 
-
 ## 📝 License
 
 MIT
@@ -116,4 +154,4 @@ MIT
 ---
 
 > **Authors:** [@voidfnc](https://github.com/voidfnc)  
-> **Inspiration:** Beast Mode by [burkeholland](https://gist.github.com/burkeholland) 🐲  
+> **Inspiration:** Beast Mode by [burkeholland](https://gist.github.com/burkeholland) 🐲
