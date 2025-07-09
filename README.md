@@ -51,9 +51,9 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 
 ---
 
-### 3. ⚡ voidBeast_OpenAI (v4.1) — Elite C/C++ Windows Systems Expert
+### 3. ⚡ voidBeast_OpenAICPlus (v1.0) — Elite C/C++ Windows Systems Expert
 
-**voidBeast_OpenAI** is a specialized elite-level prompt designed for C/C++ Windows systems programming, kernel development, and low-level system internals. This prompt transforms AI into a production-ready Windows systems expert with deep technical expertise.
+**voidBeast_OpenAICPlus** is a specialized elite-level prompt designed for C/C++ Windows systems programming, kernel development, and low-level system internals. This prompt transforms AI into a production-ready Windows systems expert with deep technical expertise. Cooked using the latest OpenAI cookbook methods and specialized in low-level programming, it's time to create some applications basic or complex, plan then execute.
 
 #### Key Features
 
