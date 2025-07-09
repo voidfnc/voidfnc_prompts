@@ -8,11 +8,68 @@ Boost your AI's reasoning, rigor, and autonomy with our battle-tested prompt des
 
 ## 📦 Available Prompts
 
-### 1. 🦾 voidBeastMode (v1.0) — First Release
+### 1. 🦾 voidBeast_GPT41Enhanced (v1.0) — Latest Elite Developer Agent
 
-**voidBeastMode** is our first agent workflow prompt for robust, autonomous problem-solving.  
-Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) 🐲, voidBeastMode is designed for agents that never quit until the task is thoroughly solved and every box is checked. Special modes added and triggers for Deep Research (Planning/Sourcing), Analyzer (Refactors/Security Audit/Optimizations), and Checkpointing / Memory mode for project saving and documentation. 
-> **Note:** The core difference between `voidBeastMode` and `voidBeast_WebFlexEnhanced` is the "brain"—the main prompt logic and agentic workflow powering each mode.
+**voidBeast_GPT41Enhanced** is our most advanced autonomous developer agent, designed for elite full-stack development with enhanced multi-mode capabilities. This latest evolution features sophisticated mode detection, comprehensive research capabilities, and never-ending problem resolution.
+
+#### Key Features
+
+- 🤖 **Autonomous Operation**: Continues working until problems are completely resolved
+- 🧠 **Intelligent Mode Detection**: Automatically switches between PLAN, ACT, and specialized modes
+- 🔍 **Mandatory Research Phase**: For prompt generation, always verifies with current web sources
+- 🛡️ **Strict QA Rule**: Every file modification is validated for correctness and completeness
+- 🎯 **Goal-Oriented**: States objectives before each tool call for transparent progress
+- 📊 **Technology Decision Matrix**: Chooses the simplest effective tool for each use case
+
+#### Advanced Mode System
+
+**PLAN MODE**: Deep problem analysis and strategic planning
+- Tools: `codebase`, `search`, `readCellOutput`, `usages`, `findTestFiles`
+- Output: Comprehensive implementation plans
+- Rule: No code writing in this mode
+
+**ACT MODE**: Execution of approved plans with continuous validation
+- Tools: All coding, testing, and deployment tools available
+- Output: Working solutions via `attempt_completion`
+- Rule: Follow plans step-by-step with validation
+
+**PROMPT GENERATOR MODE**: Research-driven prompt creation (🔥 New!)
+- Triggers: "generate", "create", "develop", "build" requests
+- **Critical**: Mandatory internet research before any implementation
+- Process: Research → Analysis → Prompt Development → Documentation
+- Tools: `fetch`, `openSimpleBrowser` for current best practices
+
+#### Specialized Modes
+
+- 🔍 **Deep Research Mode**: Multi-source analysis with comparison matrices
+- 🔧 **Analyzer Mode**: Codebase security, performance, and quality audits
+- 💾 **Checkpoint Mode**: Complete project state documentation and memory
+
+#### Example Workflow
+
+```markdown
+🎯 GOAL: Implement user authentication system
+
+PLAN MODE:
+- [ ] Analyze current codebase architecture
+- [ ] Research security best practices  
+- [ ] Create implementation strategy
+- [ ] Define success criteria
+
+ACT MODE:
+- [ ] Implement authentication logic
+- [ ] Add input validation and sanitization
+- [ ] Create secure session management
+- [ ] Write comprehensive tests
+- [ ] Validate against security standards
+```
+
+---
+
+### 2. 🦾 voidBeastMode (v1.0) — Original Autonomous Agent
+
+**voidBeastMode** is our foundational agent workflow prompt for robust, autonomous problem-solving.  
+Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) 🐲, voidBeastMode is designed for agents that never quit until the task is thoroughly solved and every box is checked.
 
 #### Key Features
 
@@ -23,23 +80,13 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 - 🧩 Special deep research, analyzer, and checkpointing modes
 - 📝 Transparent progress and reporting
 
-#### Example Workflow
-
-```markdown
-- [ ] Step 1: Understand the user request.
-- [ ] Step 2: Investigate relevant code and files.
-- [ ] Step 3: Develop a detailed plan to solve the issue.
-- [ ] Step 4: Implement the solution step-by-step.
-- [ ] Step 5: Test and validate after each change.
-- [ ] Step 6: Reflect and document the solution.
-```
-
 ---
 
-### 2. 🦾 voidBeast_WebFlexEnhanced (v1.0) — Enhanced Full-Stack Agent
+### 3. 🦾 voidBeast_WebFlexEnhanced (v1.0) — Enhanced Full-Stack Agent
 
-**voidBeast_WebFlexEnhanced** is the latest evolution of the Beast Mode agent, designed for elite full-stack web development in VS Code. It features:
-> **Note:** The "brain" (main prompt/agent logic) in `voidBeast_WebFlexEnhanced` is more advanced and web-focused than the original `voidBeastMode`.
+**voidBeast_WebFlexEnhanced** is the web-focused evolution of the Beast Mode agent, designed for elite full-stack web development in VS Code.
+
+#### Key Features
 
 - 🦾 Autonomous, never-ending problem solving until all tasks are checked off
 - 🛡️ Strict QA: Every change is verified for correctness, no assumptions
@@ -51,18 +98,18 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 
 ---
 
-### 3. ⚡ voidBeast_OpenAICPlus (v1.0) — Elite C/C++ Windows Systems Expert
+### 4. ⚡ voidBeast_OpenAICPlus (v1.0) — Elite C/C++ Windows Systems Expert
 
-**voidBeast_OpenAICPlus** is a specialized elite-level prompt designed for C/C++ Windows systems programming, kernel development, and low-level system internals. This prompt transforms AI into a production-ready Windows systems expert with deep technical expertise. Cooked using the latest OpenAI cookbook methods and specialized in low-level programming, it's time to create some applications basic or complex, plan then execute.
+**voidBeast_OpenAICPlus** is a specialized elite-level prompt designed for C/C++ Windows systems programming, kernel development, and low-level system internals.
 
 #### Key Features
 
 - 🏗️ **Windows Systems Mastery**: Win32 API, WinRT, kernel development, and driver programming
-- 🛡️ **Security-First Development**: Microsoft SDL guidelines, secure coding practices, and vulnerability prevention
+- 🛡️ **Security-First Development**: Microsoft SDL guidelines, secure coding practices
 - 🔬 **Deep Technical Research**: Mandatory documentation fetching from official Microsoft sources
-- 💻 **Multi-Language Expertise**: C/C++ (all standards), Assembly (x86/x64), inline assembly integration
-- 🎯 **Production-Ready Code**: Complete solutions with error handling, resource management, and optimization
-- 🧠 **Autonomous Problem-Solving**: Persistent until complete resolution with extensive planning and validation
+- 💻 **Multi-Language Expertise**: C/C++ (all standards), Assembly (x86/x64), inline assembly
+- 🎯 **Production-Ready Code**: Complete solutions with error handling and optimization
+- 🧠 **Autonomous Problem-Solving**: Persistent until complete resolution
 - 📚 **Documentation-Driven**: Always verifies against current official Microsoft documentation
 - 🔧 **Driver Development**: WDM, WDF, kernel-mode, and hardware interaction expertise
 
@@ -74,26 +121,11 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 - **Security**: SDL compliance, privilege management, secure API usage
 - **Performance**: Profiling, optimization, memory management excellence
 
-#### Example Use Cases
-
-```cpp
-// Driver development with proper error handling
-NTSTATUS DriverEntry(PDRIVER_OBJECT DriverObject, PUNICODE_STRING RegistryPath);
-
-// Windows API integration with RAII
-class WindowsAPIWrapper {
-    // Production-ready Windows API wrapper
-};
-
-// Assembly integration
-extern "C" void optimized_memory_copy(void* dest, const void* src, size_t size);
-```
-
 ---
 
 ## 🏁 Special Mode Triggers & Commands
 
-voidBeast includes three advanced modes, each with their own trigger phrases.  
+voidBeast includes advanced modes, each with their own trigger phrases.  
 Type or say one of these commands to activate the corresponding mode:
 
 ### 🔎 Deep Research Mode
@@ -116,6 +148,13 @@ Type or say one of these commands to activate the corresponding mode:
 - "memorize [codebase/project/file]"
 - "memory [codebase/project/file]"
 
+### 🤖 Prompt Generator Mode (New in GPT41Enhanced!)
+**Triggers:**
+- "generate [content]"
+- "create [application/component]"
+- "develop [system/feature]"
+- "build [project/tool]"
+
 > 💡 When these triggers are detected, the agent will activate the corresponding workflow and request user approval for any major actions.
 
 ---
@@ -127,7 +166,7 @@ You can use the prompts from this repo as "Custom Mode" instructions in the late
 1. **Open VS Code Insiders** (make sure you have the latest version).
 2. Go to the **Copilot Chat** sidebar.
 3. Click the gear ⚙️ icon and select **Custom Mode** (or open Command Palette `Cmd/Ctrl+Shift+P` and search for "Copilot: Custom Mode").
-4. Paste the prompt content from any of the files in this repo (e.g., `voidBeastMode.md`, `voidBeast_OpenAI.md`) into the Custom Mode instruction box.
+4. Paste the prompt content from any of the files in this repo (e.g., `voidBeast_GPT41Enhanced.md`, `voidBeastMode.md`, `voidBeast_OpenAI.md`) into the Custom Mode instruction box.
 5. Save and activate the Custom Mode.
 6. Your Copilot Chat will now follow the enhanced workflow and rigor of the selected prompt.
 
