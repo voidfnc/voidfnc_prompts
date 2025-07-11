@@ -180,7 +180,8 @@ Stay tuned as we grow this collection with more specialized prompts, workflows, 
 
 ---
 
-Media of projects using voidBeast prompts / mode:
+
+## Media of projects using voidBeast prompts / mode:
 
 
 ![2025-07-11 02-28-30](https://github.com/user-attachments/assets/bd50dfac-85c8-4c4b-9263-f3f7b304b88c)
