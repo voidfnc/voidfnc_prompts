@@ -77,6 +77,11 @@ Boost your AI's reasoning, rigor, and autonomy with our battle-tested prompt des
 
 #### Media
 
+![voidBeast_GPT41WebDevSimple_Demo_5](https://github.com/user-attachments/assets/f0835752-76fa-47cb-aff9-a9b0b66bc6e4)
+![voidBeast_GPT41WebDevSimple_Demo_1](https://github.com/user-attachments/assets/66579039-183e-4343-b2ec-7863176846f3)
+![voidBeast_GPT41WebDevSimple_Demo_2](https://github.com/user-attachments/assets/0aa206e0-f992-401e-8ccf-57064638edd5)
+![voidBeast_GPT41WebDevSimple_Demo_3](https://github.com/user-attachments/assets/a415d68c-0f84-47f1-99f1-67a01e59a762)
+![voidBeast_GPT41WebDevSimple_Demo_4](https://github.com/user-attachments/assets/7f5d1b59-8cc4-4262-ba25-13ad1ec9d0fa)
 
 
 ---
