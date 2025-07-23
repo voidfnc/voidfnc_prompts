@@ -174,6 +174,10 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 - 🧩 Special modes: Analyzer, Deep Research, Checkpoint/Memory
 - ♿ Accessibility, SEO, and performance always considered
 
+#### Media
+![2025-07-11 02-28-30](https://github.com/user-attachments/assets/bd50dfac-85c8-4c4b-9263-f3f7b304b88c)
+![image](https://github.com/user-attachments/assets/3be7c945-5dee-4a48-b43b-43fbcf9b8b94) 
+
 ---
 
 ### 5. ⚡ voidBeast_OpenAICPlus (v1.0) — Elite C/C++ Windows Systems Expert
@@ -259,12 +263,7 @@ Stay tuned as we grow this collection with more specialized prompts, workflows, 
 ---
 
 
-## Media of projects using voidBeast prompts / mode:
 
-
-![2025-07-11 02-28-30](https://github.com/user-attachments/assets/bd50dfac-85c8-4c4b-9263-f3f7b304b88c)
-
-![image](https://github.com/user-attachments/assets/3be7c945-5dee-4a48-b43b-43fbcf9b8b94) 
 
 ---
 
