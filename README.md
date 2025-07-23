@@ -8,7 +8,76 @@ Boost your AI's reasoning, rigor, and autonomy with our battle-tested prompt des
 
 ## 📦 Available Prompts
 
-### 1. 🦾 voidBeast_GPT41Enhanced (v1.0) — Latest Elite Developer Agent
+### 1. 🌐 voidBeast_GPTWebDevSimple (v1.0) — Direct Web Development Autonomous Agent
+
+**voidBeast_GPTWebDevSimple** is our streamlined autonomous web developer agent that prioritizes **direct, no-build-tool development**. This agent creates stunning websites using vanilla HTML, CSS, JavaScript, PHP, and CDN libraries without unnecessary complexity.
+
+#### Key Features
+
+- 🌐 **Browser-First Development**: Code works by opening HTML files directly - no build steps
+- 📦 **CDN-Powered**: All libraries loaded via CDN links, no npm/yarn/bundlers
+- 🤖 **Autonomous Operation**: Never stops until the problem is completely solved
+- 🔍 **Mandatory CDN Verification**: Researches current CDN versions to prevent broken layouts
+- 🎨 **Beautiful by Default**: Modern CSS effects (glassmorphism, gradients, animations)
+- 🛡️ **CSS Conflict Prevention**: Smart framework selection, never mixes incompatible libraries
+- 📱 **Mobile-First Responsive**: Bulletproof layouts that work on all devices
+- 🧪 **Rigorous Testing**: Validates all functionality and edge cases before completion
+
+#### Technology Stack Priority
+
+**🥇 FIRST CHOICE (Default)**:
+- HTML5 + CSS3 + Vanilla JavaScript
+- Tailwind CSS via CDN (or Bootstrap/Bulma)
+- GSAP/Alpine.js for interactivity
+- Font Awesome for icons
+
+**🥈 SECOND CHOICE**:
+- PHP for backend (simple, direct approach)
+- PDO for database connections
+- RESTful API endpoints
+
+**🥉 THIRD CHOICE** (Only when explicitly requested):
+- React/Vue/Angular with build tools
+
+#### CSS/Layout Breakage Prevention
+
+- **Mandatory CDN Research**: Verifies current versions before implementation
+- **Loading Validation**: JavaScript checks to confirm CSS framework loaded
+- **Conflict Prevention**: Only ONE CSS framework per project
+- **Fallback Styles**: Critical styles included for CDN failures
+- **Debugging Protocol**: Systematic approach to fix any layout issues
+
+#### Example Usage
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Website</title>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom CSS with modern effects -->
+    <style>
+        .glass {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+    </style>
+</head>
+<body>
+    <!-- Beautiful, responsive content -->
+</body>
+</html>
+```
+
+---
+
+### 2. 🦾 voidBeast_GPT41Enhanced (v1.0) — Latest Elite Developer Agent
 
 **voidBeast_GPT41Enhanced** is our most advanced autonomous developer agent, designed for elite full-stack development with enhanced multi-mode capabilities. This latest evolution features sophisticated mode detection, comprehensive research capabilities, and never-ending problem resolution.
 
@@ -66,7 +135,7 @@ ACT MODE:
 
 ---
 
-### 2. 🦾 voidBeastMode (v1.0) — Original Autonomous Agent
+### 3. 🦾 voidBeastMode (v1.0) — Original Autonomous Agent
 
 **voidBeastMode** is our foundational agent workflow prompt for robust, autonomous problem-solving.  
 Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) 🐲, voidBeastMode is designed for agents that never quit until the task is thoroughly solved and every box is checked.
@@ -82,7 +151,7 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 
 ---
 
-### 3. 🦾 voidBeast_WebFlexEnhanced (v1.0) — Enhanced Full-Stack Agent
+### 4. 🦾 voidBeast_WebFlexEnhanced (v1.0) — Enhanced Full-Stack Agent
 
 **voidBeast_WebFlexEnhanced** is the web-focused evolution of the Beast Mode agent, designed for elite full-stack web development in VS Code.
 
@@ -98,7 +167,7 @@ Inspired by [Beast Mode by burkeholland](https://gist.github.com/burkeholland) �
 
 ---
 
-### 4. ⚡ voidBeast_OpenAICPlus (v1.0) — Elite C/C++ Windows Systems Expert
+### 5. ⚡ voidBeast_OpenAICPlus (v1.0) — Elite C/C++ Windows Systems Expert
 
 **voidBeast_OpenAICPlus** is a specialized elite-level prompt designed for C/C++ Windows systems programming, kernel development, and low-level system internals.
 
